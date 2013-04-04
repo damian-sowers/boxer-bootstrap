@@ -1,0 +1,130 @@
+/* 
+	Boxer: bootstrap micro theme. 
+	Author: Damian Sowers
+	www.bootstrapmicro.com
+*/
+body {
+	background-color: #fff;
+}
+.navbar-inner {
+	background: url("../img/nav-bg.png") repeat-x;
+	background-color:#fff;
+	height:49px;
+	border:none;
+	filter:none;
+}
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+.navbar .brand {
+	font-family: 'Lobster', cursive;
+	font-size:30px;
+	font-size: 28px;
+	font-weight: 400;
+	color: #333;
+	margin-top: 3px;
+	text-shadow: 0 1px 0 #fff;
+}
+.navbar .brand:hover {
+	color:#08c;
+}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+	color: #000;
+	text-decoration: none;
+	background-color: #efefef;
+	margin-top:-5px;
+	padding-top:20px;
+	padding-bottom:13px;
+	-webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+	-moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+	box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+}
+.navbar .nav > li > a {
+	float: none;
+	font-size:14px;
+	padding: 15px 15px 14px;
+	color: #333;
+	text-decoration: none;
+	border-left: 1px solid #fff;
+	border-right: 1px solid rgba(0,0,0,0.2);
+}
+.navbar .nav > li > a:hover {
+	color:#0088cc;
+}
+.boxer_nav {
+	border-left: 1px solid rgba(0,0,0,0.2);
+	border-right: 1px solid #fff;
+}
+.collapse {
+	background-color:#333;
+}
+@media (max-width: 979px) {
+.nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus {
+	background-color: #000;
+	color:#fff;
+	}
+}
+
+.featured_top {
+	background-color:#111;
+}
+.white_gradient {
+	/* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#333), to(#111));
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #333, #111);
+  /* Firefox 3.6+ */ 
+  background: -moz-radial-gradient(circle, #333, #111);
+  /* IE 10 */ 
+  background: -ms-radial-gradient(circle, #333, #111);
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.white_gradient p {
+	color:#999;
+}
+.boxer_title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+}
+h1.boxer_title {
+	color:#f3f3f3;
+	letter-spacing: -2px;
+	text-transform:uppercase;
+	font-size:35px;
+}
+h2.boxer_title {
+	color:#333;
+	letter-spacing: -2px;
+	font-size:25px;
+}
+.align_center {
+	text-align: center;
+}
+.body_article {
+	margin-top:60px;
+}
+.section_divider {
+	margin-top:40px;
+	border-bottom: 1px solid #ddd;
+}
+.boxer_footer {
+	background-color:#fff;
+	height:80px;
+}
+.boxer_footer ul {
+	margin:0;
+}
+.boxer_footer ul li {
+	margin-top:20px;
+	float:left;
+	padding-right:20px;
+	display:inline;
+	list-style-type:none;
+}
+.boxer_copyright {
+	float:right;
+	margin-top:20px;
+}
